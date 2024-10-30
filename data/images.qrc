@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="img">
+    <file>img/icon_find.svg</file>
+    <file>img/vsu_logo-blue.png</file>
+    <file>img/vsu_logo-gray.png</file>
+  </qresource>
+</RCC>

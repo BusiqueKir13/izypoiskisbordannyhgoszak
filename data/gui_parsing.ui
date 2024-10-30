@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>421</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowOpacity">
+   <double>2.000000000000000</double>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>421</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>721</width>
+      <height>621</height>
+     </size>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>715</width>
+       <height>592</height>
+      </size>
+     </property>
+     <attribute name="title">
+      <string>Задать параметры</string>
+     </attribute>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>411</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>A. Продукция сельского, лесного и рыбного хозяйства</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>B. Продукция горнодобывающих производств</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>C. Продукция обрабатывающих производств</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>D. Электроэнергия, газ, пар и кондиционирование воздуха</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>E. Водоснабжение; водоотведение, услуги по удалению и рекультивации отходов</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>F. Сооружения и строительные работы</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>G. Услуги по оптовой и розничной торговле; услуги по ремонту автотранспортных средств и мотоциклов</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>H. Услуги транспорта и складского хозяйства</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>I. Услуги гостиничного хозяйства и общественного питания</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>J. Услуги в области информации и связи</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>K. Услуги финансовые и страховые</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>L. Услуги, связанные с недвижимым имуществом</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>M. Услуги, связанные с научной, инженерно-технической и профессиональной деятельностью</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>N. Услуги административные и вспомогательные</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>O. Услуги в сфере государственного управления и обеспечения военной безопасности; услуги по обязательному социальному обеспечению</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>P. Услуги в области образования</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Q. Услуги в области здравоохранения и социальные услуги</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>R. Услуги в области искусства, развлечений, отдыха и спорта</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>S. Прочие услуги</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>T. Товары и услуги различные, производимые домашними хозяйствами для собственного потребления, включая услуги работодателя для домашнего персонала</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>U. Услуги, предоставляемые экстерриториальными организациями и органами</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>431</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Разделы Общероссийского классификатора продукции</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>110</y>
+        <width>431</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Подразделы Общероссийского классификатора продукции</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>160</y>
+        <width>431</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Код ОКПД2</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>130</y>
+        <width>411</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Привет</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Как дела</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>что делаешь</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>d</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>e</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>g</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>h</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>k</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>l</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>m</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>o</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>p</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>q</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>r</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>s</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>t</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>u</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>v</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>w</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>220</y>
+        <width>431</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ИНН Заказчика</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>290</y>
+        <width>431</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Год закупок в рамках 44-ФЗ</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>310</y>
+        <width>411</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>2015</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2016</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2017</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2018</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2019</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2020</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2021</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2022</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2023</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2024</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2025</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2026</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2027</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2028</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2029</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2030</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>240</y>
+        <width>411</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>430</y>
+        <width>171</width>
+        <height>24</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Найти</string>
+      </property>
+      <property name="icon">
+       <iconset resource="images.qrc">
+        <normaloff>:/img/img/icon_find.svg</normaloff>:/img/img/icon_find.svg</iconset>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Таблица данных</string>
+     </attribute>
+     <widget class="QTableView" name="tableView">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>711</width>
+        <height>591</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+background-color: rgba(236, 55, 55, 30); 
+border: 1px solid rgba(255,255,255,40);
+border-bottom-right-radius: 7px; 
+border-bottom-left-radius: 7px; 
+color: white;
+}
+
+QHeaderView::section {
+background-color: rgb(53, 53, 53);
+color: white;
+border: none;
+height: 50px;
+font-size: 16pt;
+}
+
+QTableView::item {
+    border-style: none;
+    border-bottom: 1px solid rgba(255,255,255,50);
+    padding-left: auto;
+    padding-right: auto;
+}
+
+QTableView::item:selected{
+	border: none;
+	color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 50);
+}
+</string>
+      </property>
+     </widget>
+     <widget class="QScrollBar" name="verticalScrollBar">
+      <property name="geometry">
+       <rect>
+        <x>800</x>
+        <y>0</y>
+        <width>20</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>График Закупок</string>
+     </attribute>
+     <widget class="QGraphicsView" name="graphicsView">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>821</width>
+        <height>521</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>421</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Справка</string>
+    </property>
+    <addaction name="action_3"/>
+    <addaction name="action_4"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>Сведения об авторах</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>comboBox</tabstop>
+  <tabstop>comboBox_2</tabstop>
+  <tabstop>textEdit</tabstop>
+  <tabstop>comboBox_3</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>tableView</tabstop>
+  <tabstop>graphicsView</tabstop>
+  <tabstop>tabWidget</tabstop>
+ </tabstops>
+ <resources>
+  <include location="okpd2.qrc"/>
+  <include location="images.qrc"/>
+  <include location="C:/Users/Honor/.designer/backup/images.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>comboBox_2</receiver>
+   <slot>setCurrentText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>222</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>222</x>
+     <y>187</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
